@@ -13,7 +13,7 @@ const myRequest = {
 $task.fetch(myRequest).then(response => {
     $done(response.body);
 }, reason => {
-    console.log("替换即刻推荐动态失败, 原因: " + reason.error);
-    $notify("😿 替换即刻推荐动态失败", "", "原因: " + reason.error + " 请刷新重试");
+    console.log("😿 替换动态广场失败, 原因: " + reason.error);
+    $notify("😿 替换动态广场失败", "", "原因: " + reason.error + " 请刷新重试");
     $done();
 });
