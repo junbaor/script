@@ -1,4 +1,4 @@
-const url = "https://jike.junbao.me/api/recommendFeed";
+const url = "https://jike.asynctask.cn/api/recommendFeed";
 const method = "POST";
 const headers = { "Content-Type": "application/json" };
 const data = {};
